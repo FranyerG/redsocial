@@ -1,0 +1,155 @@
+
+header{
+    background-color: var(--main-color);
+}
+
+
+.navbar{
+    background-color: #a5a5a5; /* Color de fondo del navbar */
+    width: 1280px;
+    height: 65px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar-nav {
+    margin-left: auto; /* Mueve los elementos de navegación a la derecha */
+}
+
+
+.image-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.tipe-form{
+    height: 100%;
+}
+
+.form-style{
+    outline: none;
+    border: 0;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    padding: .3mm 0 .3mm .9mm;
+}
+
+.btn-form{
+    border: 0;
+    width: 40px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    padding: .3mm .5mm .3mm 0;
+    background-color: white;
+    color: #a5a5a5;
+    margin: 0;
+    cursor: pointer;
+}
+
+.img-perfil{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.links {
+    margin-right: 15px;
+}
+
+.links a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-radio{
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.inicio{
+
+    margin-right: 0px;
+}
+
+
+.usuarios{
+    margin-right: 90px;
+
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    margin-right: 380px;
+}
+
+.navbar-collapse{
+    background-color: #a5a5a5;
+}
+
+.form-style{
+    width: 200px;
+    height: 40px;
+}
+
+.btn-form{
+    height: 40px;
+    
+}
+
+
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #4267B2; /* Color de fondo similar a Facebook */
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0; /* Alinea el dropdown a la derecha */
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}

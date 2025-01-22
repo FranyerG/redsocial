@@ -1,0 +1,113 @@
+.container-home{
+    margin-top: 90px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.col-md-3{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+.col-md-6{
+    margin-left: 400px;
+}
+.container-usuario-publicar{
+    width: 600px;
+    height: 160px;
+    background-color: rgba(238, 238, 238, 0.504);
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+
+.perfil{
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.504);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+
+.perfil-usuario-main{
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+}
+.image-user{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-top: 50px;
+    border: 2px solid white;
+}
+
+.image-border {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.publicar{
+    padding: 12px;
+    border: none;
+    border-radius: 40px;
+    width: 495px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 20px;
+    outline: none;
+}
+
+hr{
+    width: 550px;
+}
+
+
+
+
+.upload-photo{
+    margin-left: 90px;
+}
+
+.image-public{
+    width: 25px;
+    height: 25px;
+}
+
+.span-1-1{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.subir-imagen {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el icono */
+}
+
+.subir-imagen input[type="file"] {
+    display: none; /* Oculta el input de tipo file */
+}
+
+.btn-outline-secondary{
+    margin-left: 450px;
+}
+
+
+
+
+
