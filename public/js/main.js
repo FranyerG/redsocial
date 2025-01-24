@@ -15,3 +15,26 @@ window.onclick = function(event) {
         }
     }
 }
+
+
+
+
+const buttonContainers = document.querySelectorAll('.button-container');
+
+buttonContainers.forEach(container => {
+    const link = container.querySelector('.my-link');
+    link.addEventListener('click', (event) => {
+        // Evita que el enlace navegue inmediatamente
+        event.preventDefault(); 
+        
+        // Ocultar todas las barras
+        buttonContainers.forEach(c => c.classList.remove('active'));
+        // Mostrar la barra del enlace presionado
+        container.classList.add('active');
+
+        // Redirigir después de un pequeño retraso
+        setTimeout(() => {
+            window.location.href = link.href; // Redirige a la URL del enlace
+        }, 300); // Ajusta el tiempo en milisegundos según sea necesario
+    });
+});

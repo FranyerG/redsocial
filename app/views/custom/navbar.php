@@ -7,30 +7,53 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ar-auto ">
-                    <li class="nav-item inicio">
-                        <a class="nav-link text-white " href="#"><span class="big"><i class="fas fa-home ar-1"></i></span>Inicio</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link text-white usuarios" href="#"><span class="big"><i class="fas fa-home ar-1"></i></span>Usuarios</a>
-                    </li>
-                    <li class="nav-item buscador">
-                        <form action="" class="tipe-form form-inline my-2 my-lg-0 ">
+                 
+                        <form action="" class="tipe-form form-inline my-2 my-lg-0 buscador">
                             <input type="text" name="buscar" class="form-style" placeholder="Buscar">
                             <button class="btn-form" type="sutmit">
                                 <i class="fas fa-search"></i>
                             </button>
                         </form>
+
+
+
+
+                <ul class="navbar-nav ar-auto ">
+
+                    <li class="nav-item inicio">
+                        <div class="button-container" id="button1">
+                            <a  class="nav-link text-white my-link" href="<?php echo URL_PROJECT?>/home"><span class="big"><img class="nav" with="25px" height="25px" src="<?php echo URL_PROJECT?>/img/img_icons/home.png" alt=""></span></a>
+                            <div class="indicator"></div>
+                        </div>
                     </li>
+                
+
+                <li class="nav-item ">
+                <div class="button-container" id="button2">
+                <a class="nav-link text-white my-link" href=""><span class="big"><img class="nav" with="25px" height="25px" src="<?php echo URL_PROJECT?>/img/img_icons/usuarios.png" alt=""></span></a>
+                <div class="indicator"></div>
+                </div>
+                </li>
+
+                <li class="nav-item ">
+                <div class="button-container" id="button3">
+                <a class="nav-link text-white my-link" href=""><span class="big"><img class="nav" with="25px" height="25px" src="<?php echo URL_PROJECT?>/img/img_icons/msg.png" alt=""></span></a>
+                <div class="indicator"></div>
+                </div>
+                </li>
+
+                <li class="nav-item ">
+                <div class="button-container" id="button4">
+                <a class="nav-link text-white my-link" href=""><span class="big"><img class="nav" with="25px" height="25px" src="<?php echo URL_PROJECT?>/img/img_icons/noti.png" alt=""></span></a>
+                <div class="indicator"></div>
+                </div>
+                </li>
+
                 </ul>
 
-                <div class="links">
-                    <a class="" href=""><span class="big"><i class="fas fa-envelope"></i></span><span class="mb-0 ml-1">Mensajes</span></a>
-                </div>
 
-                <div class="links ">
-                    <a class="" href=""><span class="big"><i class="fas fa-bell"></i></span><span class="mb-0 ml-1">Notificaciones</span></a>
-                </div>
+
+
 
                 <div class="dropdown">
                     <span class="btn-radio " id="actionPerfil" onclick="toggleDropdown()" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -50,6 +73,5 @@
 
 
 </header>  
-
 
 

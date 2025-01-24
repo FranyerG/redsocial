@@ -14,8 +14,23 @@ header{
     align-items: center;
 
 }
-.navbar-nav {
-    margin-left: auto; /* Mueve los elementos de navegación a la derecha */
+
+.navbar-nav{
+    margin-left: 100px;
+}
+
+.nav-item{
+    padding: 0 2px;
+}
+
+.nav-item img{
+    padding: 0px 25px;
+
+}
+.nav-item:hover{
+    background-color: #6b6b6b58;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 
@@ -56,14 +71,9 @@ header{
 }
 
 
-.links {
-    margin-right: 15px;
-}
 
-.links a{
-    color: #ffffff;
-    text-decoration: none;
-}
+
+
 
 .btn-radio{
     background-color: var(--main-color);
@@ -75,21 +85,12 @@ header{
 
 
 
-.inicio{
 
-    margin-right: 0px;
-}
-
-
-.usuarios{
-    margin-right: 90px;
-
-}
 
 .buscador {
     display: flex;
     align-items: center;
-    margin-right: 380px;
+    margin-left: 20px;
 }
 
 .navbar-collapse{
@@ -115,6 +116,7 @@ header{
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-left: 350px;
 }
 
 .dropbtn {
@@ -153,3 +155,38 @@ header{
 .show {
     display: block;
 }
+
+
+
+
+
+
+
+
+.button-container {
+    position: relative;
+}
+.my-link {
+    cursor: pointer;
+}
+.indicator {
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #007BFF;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.active .indicator{
+    color: #007BFF;
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
